@@ -15,6 +15,7 @@
 		98C8DDDB226EF174008135AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C8DDDA226EF174008135AD /* main.m */; };
 		98C8DDE5226EF174008135AD /* HYProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C8DDE4226EF174008135AD /* HYProjectTests.m */; };
 		98C8DDF0226EF174008135AD /* HYProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C8DDEF226EF174008135AD /* HYProjectUITests.m */; };
+		98C8DE00226EFFD5008135AD /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C8DDFF226EFFD5008135AD /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		98C8DDEB226EF174008135AD /* HYProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C8DDEF226EF174008135AD /* HYProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYProjectUITests.m; sourceTree = "<group>"; };
 		98C8DDF1226EF174008135AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C8DDFE226EFFD5008135AD /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		98C8DDFF226EFFD5008135AD /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 			children = (
 				98C8DDCB226EF173008135AD /* AppDelegate.h */,
 				98C8DDCC226EF173008135AD /* AppDelegate.m */,
+				98C8DDFD226EFFB6008135AD /* Classes */,
 				98C8DDCE226EF173008135AD /* ViewController.h */,
 				98C8DDCF226EF173008135AD /* ViewController.m */,
 				98C8DDD1226EF173008135AD /* Main.storyboard */,
@@ -130,6 +134,15 @@
 				98C8DDF1226EF174008135AD /* Info.plist */,
 			);
 			path = HYProjectUITests;
+			sourceTree = "<group>";
+		};
+		98C8DDFD226EFFB6008135AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98C8DDFE226EFFD5008135AD /* AViewController.h */,
+				98C8DDFF226EFFD5008135AD /* AViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C8DE00226EFFD5008135AD /* AViewController.m in Sources */,
 				98C8DDD0226EF173008135AD /* ViewController.m in Sources */,
 				98C8DDDB226EF174008135AD /* main.m in Sources */,
 				98C8DDCD226EF173008135AD /* AppDelegate.m in Sources */,
