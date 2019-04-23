@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)versionString{
+    NSLog(@"0.2.0");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
