@@ -20,7 +20,7 @@
 }
 
 - (void)versionString{
-    NSLog(@"0.2.0");
+    NSLog(@"0.3.0");
 }
 
 - (void)didReceiveMemoryWarning {
